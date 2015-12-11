@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBoard", "MessageBoard\MessageBoard.csproj", "{17F69AB8-55C9-4610-B87E-26B0CFA28A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBoard.Tests", "MessageBoard.Tests\MessageBoard.Tests.csproj", "{A8D02C6B-FCEF-41BB-B6A5-710EC4A788CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9D07141-C776-42BA-8984-DD08747021D5}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17F69AB8-55C9-4610-B87E-26B0CFA28A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F69AB8-55C9-4610-B87E-26B0CFA28A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F69AB8-55C9-4610-B87E-26B0CFA28A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F69AB8-55C9-4610-B87E-26B0CFA28A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D02C6B-FCEF-41BB-B6A5-710EC4A788CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D02C6B-FCEF-41BB-B6A5-710EC4A788CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D02C6B-FCEF-41BB-B6A5-710EC4A788CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D02C6B-FCEF-41BB-B6A5-710EC4A788CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "message-board app with gulp for less css",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "stuartmlawton"
+  },
+  "keywords": [
+    "gulp",
+    "less"
+  ],
+  "author": "stuart lawton",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.2"
+  }
+}
