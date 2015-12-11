@@ -63,7 +63,7 @@ namespace MessageBoard.Data
             {
                 return _ctx.SaveChanges() > 0;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //log?
                 return false;
